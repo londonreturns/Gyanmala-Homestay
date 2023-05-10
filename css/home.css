@@ -1,0 +1,7 @@
+*{
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+}
+body{
+    background-image: url(/images/kapan.jpg);
+}
