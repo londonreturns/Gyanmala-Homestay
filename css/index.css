@@ -5,7 +5,7 @@
 
 
 body{
-    background-image: url(/images/mountain_dark.png);
+    background-image: url("../images/mountain_dark.png");
     background-size: 100vw 90vh;
 }
 
