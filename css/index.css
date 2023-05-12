@@ -1,0 +1,49 @@
+*{
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+}
+
+
+body{
+    background-image: url(/images/mountain_dark.png);
+    background-size: 100vw 90vh;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58vh;
+}
+
+
+section .main_heading{
+    color: white;
+    font-size:52px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', sans-serif;
+    color: #f0ba00;
+}
+
+
+.clickable{
+    background-color: antiquewhite;
+    margin-top: auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+.share{
+    margin-left: 25vw;
+}
+
+
+.overview{
+    color: black;
+    margin: 5vh 10vw 0 10vw;
+    font-size: 22px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+

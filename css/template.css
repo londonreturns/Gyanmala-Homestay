@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
 }
 
 
 #logo {
-    padding: 2vw;
-    width: 12%;
+    margin: 8vh 20vw 0 0;
+    width: 10vw;
 }
 
 nav ul{
@@ -16,12 +18,13 @@ nav ul{
 }
 
 
-a{
+nav ul a{
     text-decoration: none;
+
 }
 
 .nav_site{
-    background-color: #ffba00;
+    background-color: #f0ba00;
     list-style: none;
     width: 10vw;
     text-align: center;
@@ -30,10 +33,9 @@ a{
     border-style:solid;
     border-color: #303E27;
     border-width: 2px;
-    color:white;
+    color:black;
     text-decoration: none;
-    margin-left: 2vw;
-    margin-right: 1vw;
+    margin: 15vh 1vw 0 2vw;
 }
 
 .nav_site:hover {
@@ -47,9 +49,10 @@ a{
 
 .login{
     background-color: #c26c07;
-    color: white;
+    color: black;
 }
 
 .login:hover{
-    color: darkorchid;
+    color: #f0ba00;
 }
+
