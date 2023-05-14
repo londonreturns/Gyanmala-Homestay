@@ -11,14 +11,18 @@ body{
     background-color:  rgba(0, 20, 20, .3);
 }
 
-nav{
+header{
     background-color: rgba(0, 20, 20, .3);
     height: 12vh;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 nav #logo{
     width: 9vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
 }
 
 nav ul{
@@ -41,4 +45,15 @@ nav ul{
 .nav_site a:hover{
     color: #c26c07;
     transition: .4s;
+}
+
+.login_register a{
+    color: #f0ba00;
+}
+
+.sub_heading{
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
 }

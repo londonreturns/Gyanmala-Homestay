@@ -6,23 +6,24 @@
 
 body{
     background-image: url("../images/mountain_dark.png");
-    background-size: 100vw 90vh;
+    background-size: 100vw 80vh;
+    
 }
 
 
-section {
+.top_section {
     display: flex;
     justify-content: space-around;
-    margin-top: 58vh;
+    margin-top: 70vh;
 }
 
 
-section .main_heading{
-    color: white;
+.top_section .main_heading{
     font-size:52px;
     font-weight: 700;
     font-family: 'Libre Baskerville', sans-serif;
     color: #f0ba00;
+    margin-right: 20vw;
 }
 
 
@@ -33,6 +34,9 @@ section .main_heading{
     padding: 15px;
 }
 
+.clickable a{
+    color: black;
+}
 
 .share{
     margin-left: 1vw;
@@ -42,8 +46,39 @@ section .main_heading{
 .overview{
     color: black;
     margin: 5vh 10vw 0 10vw;
-    font-size: 22px;
+    font-size: 30px;
     text-align: justify;
     text-justify: inter-word;
 }
 
+#sub_heading {
+    margin-top: 14vh;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 50px;
+}
+
+.column {
+    flex: 25%;
+}
+
+.column img {
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.column img:hover{
+    background-color: rgba(0, 20, 20, .3);
+    transition: .4s;
+
+}
