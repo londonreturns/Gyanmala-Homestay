@@ -4,55 +4,41 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    text-decoration: none;
 }
 
+body{
+    background-color:  rgba(0, 20, 20, .3);
+}
 
-#logo {
-    margin: 8vh 20vw 0 0;
-    width: 10vw;
+nav{
+    background-color: rgba(0, 20, 20, .3);
+    height: 12vh;
+    width: 100%;
+}
+
+nav #logo{
+    width: 9vw;
 }
 
 nav ul{
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-nav ul a{
-    text-decoration: none;
-
+    float: right;
+    margin-right: 2vw;
+    margin-top: 4vh;
 }
 
 .nav_site{
-    background-color: #f0ba00;
-    list-style: none;
-    width: 10vw;
-    text-align: center;
-    padding: 0.50vh;
-    border-radius: 8px;
-    border-style:solid;
-    border-color: #303E27;
-    border-width: 2px;
-    color:black;
-    text-decoration: none;
-    margin: 15vh 1vw 0 2vw;
+    display: inline-block;
 }
 
-.nav_site:hover {
+.nav_site a{
+    color: wheat;
+    font-size: 33px;
+    margin-right: 2vw;
+    text-transform: uppercase;
+}
+
+.nav_site a:hover{
     color: #c26c07;
-
+    transition: .4s;
 }
-
-.nav:active{
-    background-color: black;
-}
-
-.login{
-    background-color: #c26c07;
-    color: black;
-}
-
-.login:hover{
-    color: #f0ba00;
-}
-
