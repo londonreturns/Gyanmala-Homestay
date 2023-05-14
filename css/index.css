@@ -75,10 +75,12 @@ body{
     margin: 0;
     padding: 5px;
     width: 100%;
+    border-radius: 12px;
 }
 
 .column img:hover{
     background-color: rgba(0, 20, 20, .3);
     transition: .4s;
+    border-radius: 20px;
 
 }
