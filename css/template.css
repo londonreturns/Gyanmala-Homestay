@@ -57,3 +57,46 @@ nav ul{
     font-family: 'Libre Baskerville', sans-serif;
     text-align: center;
 }
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(0, 20, 20, .3);
+}
+
+footer .footer_section{
+    list-style: none;
+}
+
+footer .footer_section a{
+    color: black;
+}
+
+footer .footer_section a:hover{
+    color: darkblue;
+    transition: .3s;
+}
+
+footer .footer_section .footer_main{
+    font-size: 18px;
+    font-family: 'Libre Baskerville', sans-serif;
+    line-height: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer .footer_section .footer_sub{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+footer .copyright{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 900;
+}
+
+footer .footer_section .fa-brands{
+    margin-right: 10px;
+}
