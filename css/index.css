@@ -1,12 +1,7 @@
-*{
-    background-repeat: no-repeat;
-    background-size: 100vw 80vh;
-}
-
-
 body{
     background-image: url("../images/mountain_dark.png");
     background-size: 100vw 80vh;
+    background-repeat: no-repeat;
     
 }
 

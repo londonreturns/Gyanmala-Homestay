@@ -1,0 +1,29 @@
+.sub_heading{
+    margin-top: 15vh;
+}
+
+section .availability{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section .mini_heading{
+    margin-top: 5vh;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 25px;
+}
+
+section .lists{
+    margin-top: 35px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+section .amenity li{
+    list-style: none;
+}
+
+section .included{
+    
+}
