@@ -1,10 +1,8 @@
-body{
+body {
     background-image: url("../images/mountain_dark.png");
     background-size: 100vw 80vh;
     background-repeat: no-repeat;
-    
 }
-
 
 .top_section {
     display: flex;
@@ -13,17 +11,15 @@ body{
     flex-wrap: wrap;
 }
 
-
-.top_section .main_heading{
-    font-size:52px;
+.top_section .main_heading {
+    font-size: 52px;
     font-weight: 700;
     font-family: 'Libre Baskerville', sans-serif;
     color: #f0ba00;
     margin-right: 20vw;
 }
 
-
-.clickable{
+.clickable {
     background-color: antiquewhite;
     margin-top: auto;
     border-radius: 20px;
@@ -31,21 +27,20 @@ body{
     height: 5vh;
 }
 
-.clickable a{
+.clickable a {
     color: black;
 }
 
-.clickable:hover{
+.clickable:hover {
     font-size: 15px;
-    
+
 }
 
-.share{
+.share {
     margin-left: 1vw;
 }
 
-
-#overview{
+#overview {
     color: black;
     margin: 5vh 10vw 0 10vw;
     font-size: 30px;
@@ -62,31 +57,27 @@ body{
     text-align: center;
 }
 
-#gallery{
+#gallery {
     scroll-margin-top: 20vh;
 }
 
 .row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3vw;
 }
 
-.column {
-    flex: 25%;
-}
-
-.column img {
+.row img {
     margin: 0;
     padding: 5px;
     width: 100%;
     border-radius: 12px;
+    transition: all .5s;
+    border-radius: 20px;
 }
 
-.column img:hover{
-    background-color: #c26c07;
+.row img:hover {
+    transform: scale(1.025);
     transition: .4s;
-    border-radius: 20px;
 }

@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,78 +7,84 @@
     text-decoration: none;
 }
 
-body{
-    background-color:  rgba(0, 20, 20, .3);
+html{
+    scroll-behavior: smooth;
 }
 
-header{
+body {
+    background-color: rgba(0, 20, 20, .3);
+}
+
+header {
     background-color: rgba(0, 20, 20, .3);
     height: 12vh;
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
-nav #logo{
+nav #logo {
     width: 9vw;
     margin-top: 1vh;
     margin-left: 2vw;
 }
 
-nav ul{
-    float: right;
-    margin-right: 2vw;
-    margin-top: 4vh;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
-.nav_site{
+.nav_site {
     display: inline-block;
 }
 
-.nav_site a{
+.nav_site a {
     color: wheat;
     font-size: 33px;
     margin-right: 2vw;
     text-transform: uppercase;
 }
 
-.nav_site a:hover{
+.nav_site a:hover {
     color: #c26c07;
     transition: .4s;
 }
 
-.login_register a{
+.login_register a {
     color: #f0ba00;
 }
 
-.sub_heading{
+.sub_heading {
     font-size: 52px;
     font-weight: 700;
     font-family: 'Libre Baskerville', sans-serif;
     text-align: center;
 }
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: rgba(0, 20, 20, .3);
 }
 
-footer .footer_section{
+footer .footer_section {
     list-style: none;
 }
 
-footer .footer_section a{
+footer .footer_section a {
     color: black;
 }
 
-footer .footer_section a:hover{
+footer .footer_section a:hover {
     color: darkblue;
     transition: .3s;
 }
 
-footer .footer_section .footer_main{
+footer .footer_section .footer_main {
     font-size: 18px;
     font-family: 'Libre Baskerville', sans-serif;
     line-height: 30px;
@@ -86,17 +92,17 @@ footer .footer_section .footer_main{
     padding-bottom: 12px;
 }
 
-footer .footer_section .footer_sub{
+footer .footer_section .footer_sub {
     font-size: 12px;
     line-height: 25px;
 }
 
-footer .copyright{
+footer .copyright {
     margin-top: auto;
     margin-bottom: auto;
     font-weight: 900;
 }
 
-footer .footer_section .fa-brands{
+footer .footer_section .fa-brands {
     margin-right: 10px;
 }
