@@ -2,7 +2,6 @@ body {
     background-image: url("../images/mountain_dark.png");
     background-size: 100vw 80vh;
     background-repeat: no-repeat;
-    
 }
 
 .top_section {
@@ -34,7 +33,6 @@ body {
 
 .clickable:hover {
     font-size: 15px;
-
 }
 
 .share {
@@ -43,10 +41,10 @@ body {
 
 #overview {
     color: black;
-    margin: 15vh 10vw 0 10vw;
+    margin: 0vh 10vw 0 10vw;
     font-size: 30px;
     text-align: justify;
-    text-justify: inter-word;
+    scroll-margin-top: 20vh;
 }
 
 .sub_heading {
