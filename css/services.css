@@ -1,4 +1,4 @@
-.sub_heading{
+.services{
     margin-top: 15vh;
 }
 
@@ -24,6 +24,46 @@ section .amenity li{
     list-style: none;
 }
 
-section .included{
-    
+.sub_heading{
+    margin-top: 6vh;
+}
+
+.price{
+    text-align: center;
+}
+
+.hosts .lists{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lists .name_pic img{
+    width: 20vw;
+    height: 45vh;
+    object-fit: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.confirm{
+    background-color: antiquewhite;
+    margin-top: auto;
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
+    margin-left: 75vw;
+    margin-bottom: 1vh;
+}
+
+.confirm a{
+    text-decoration: none;
+    color: black;
+}
+
+.confirm a:hover {
+    font-size: 15px;
+    color: brown;
+    transition: .1s;
 }

@@ -37,23 +37,22 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section class="services">
                 <div class="sub_heading">Services</div>
                 <div class="availability">
                     <div>
-                        <div class="mini_heading">Availability</div>
+                        <div class="mini_heading">Availability (Pick and Choose)</div>
                         <ul class="lists amenity">
-                            <li><i class="fa-solid fa-eye"></i> View</li>
-                            <li>Terrace</li>
-                            <li>Wi-Fi</li>
-                            <li>Linen</li>
-                            <li>Hot Shower</li>
-                            <li>Road Access</li>
-                            <li>Terrace Access</li>
+                            <li><input type="checkbox" id="view">   <i class="fa-solid fa-eye"></i> View</li>
+                            <li><input type="checkbox" id="terrace">   <i class="fa-solid fa-house-chimney-window"></i> Terrace</li>
+                            <li><input type="checkbox" id="wifi">   <i class="fa-solid fa-wifi"></i> Wi-Fi</li>
+                            <li><input type="checkbox" id="linen">   <i class="fa-solid fa-mattress-pillow"></i> Linen</li>
+                            <li><input type="checkbox" id="hotshower">   <i class="fa-solid fa-shower"></i> Hot Shower</li>
+                            <li><input type="checkbox" id="roadaccess">   <i class="fa-solid fa-road"></i> Road Access</li>
                         </ul>
                     </div>
                     <div>
-                        <div class="mini_heading">Included</div>
+                        <div class="mini_heading">Included (All)</div>
                         <ul class="lists included">
                             <li>Breakfast</li>
                             <li>Lunch</li>
@@ -62,6 +61,45 @@
                     </div>
                 </div>
             </section>
+            <section>
+                <div class="sub_heading pricing">Pricing</div>
+                <div class="mini_heading price">~15 USD per day</div>
+            </section>
+            <section class="hosts">
+                <div class="sub_heading choose_host">Choose your host</div>
+                <div class="lists">
+                    <div class="name_pic">
+                        <img src="/images/host1.jpg" alt="host1.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="sharada">Sharada Acharya</label><br>
+                    </div>
+                    <div class="name_pic">
+                        <img src="/images/host2.jpg" alt="host2.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="pumpha">Pumpha Shrestha</label><br>
+                    </div>
+                    <div class="name_pic">
+                        <img src="/images/host3.jpg" alt="host3.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="laxmi">Laxmi Khadka Thapa</label><br>
+                    </div>
+                    <div class="name_pic">
+                        <img src="/images/host4.jpg" alt="host4.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="manmaya">Manmaya Gurung</label><br>
+                    </div>
+                    <div class="name_pic">
+                        <img src="/images/host5.jpg" alt="host5.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="naina">Naina Sapkota</label><br>
+                    </div>
+                    <div class="name_pic">
+                        <img src="/images/host6.jpg" alt="host6.jpg"><br>
+                        <input type="radio" name="host">
+                        <label for="angmaya">Angmaya Sherpa</label><br>
+                </div>
+            </section>
+            <button class="confirm"><a href="#">Confirm</a></button>
         </main>
         <footer>
             <ul class="footer_section">
