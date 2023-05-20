@@ -1,0 +1,22 @@
+.contact {
+    margin-top: 15vh;
+    margin-bottom: 6vh;
+}
+
+.contact .phone_number{
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 45px;
+}
+
+.location{
+    width: 75vw;
+    height: 75vh;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.location .sub_heading{
+    margin-bottom: 6vh;
+}
