@@ -37,7 +37,37 @@
                 </ul>
             </nav>
         </header>
-
+        <main>
+            <section class="registration">
+                <div class="sub_heading">Register</div>
+                <form>
+                    <label>First Name</label>
+                    <input type="text" placeholder="First" id="first_name" required>
+                    <label>Middle Name</label>
+                    <input type="text" placeholder="Middle" id="middle_name">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Last" id="last_name" required>
+                    <label>Email</label>
+                    <input type="email" id="email" required>
+                    <label>Phone Number</label>
+                    <input type="text" id="phone_number" required>
+                    <label>Password</label>
+                    <input type="password" placeholder="••••••••" id="password" required>
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob" required>
+                    <label>Gender</label>
+                    <div class="gender">
+                        <input type="radio" name="sex" required="required">
+                        <label for="female">Female</label><br><br>
+                        <input type="radio" name="sex" required="required">
+                        <label for="male">Male</label><br><br>
+                        <input type="radio" name="sex" required="required">
+                        <label for="others">Others</label>
+                    </div>
+                    <button class="register_button">Register for new account</button>
+                </form>
+            </section>
+        </main>
         <footer>
             <ul class="footer_section">
                 <li class="footer_main">About Company</li>
