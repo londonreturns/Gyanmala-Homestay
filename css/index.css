@@ -7,7 +7,7 @@ body {
 .top_section {
     display: flex;
     justify-content: space-around;
-    margin-top: 69vh;
+    margin-top: 65vh;
     flex-wrap: wrap;
 }
 
@@ -16,7 +16,7 @@ body {
     font-weight: 700;
     font-family: 'Libre Baskerville', sans-serif;
     color: #f0ba00;
-    margin-right: 20vw;
+    margin-right: 30vw;
 }
 
 .clickable {
@@ -38,6 +38,40 @@ body {
     transition: .1s;
 }
 
+.share:hover {
+    cursor: pointer;
+}
+
+.share_link.share_open{
+    display: none;
+}
+
+.share_link {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(0, 20, 20, .1);
+    width: 125px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #55acee;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.reddit {
+    color: #cb2027;
+}
+
 #overview {
     color: black;
     margin: 0vh 10vw 0 10vw;
@@ -48,10 +82,6 @@ body {
 
 .sub_heading {
     margin-top: 14vh;
-    font-size: 52px;
-    font-weight: 700;
-    font-family: 'Libre Baskerville', sans-serif;
-    text-align: center;
     margin-bottom: 5vw;
 }
 
@@ -81,24 +111,25 @@ body {
 }
 
 form{
-    width: 25vw;
+    width: 350px;
+    float: right;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1400px) {
     
     .share{
         margin-top: 4vh;
     }
 
     form{
+        float: none;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 75vw;
-    }
-
-    .main_heading{
-        margin-right: 0;
-        text-align: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        margin:auto;
+        justify-content: space-between;
     }
 
     .top_section {
@@ -109,11 +140,10 @@ form{
     }
 
     .top_section .main_heading {
-        font-size: 52px;
-        font-weight: 700;
-        font-family: 'Libre Baskerville', sans-serif;
-        color: #f0ba00;
         margin: auto;
+        background-color: rgba(0, 20, 20, .3);
+        width: 100%;
+        text-align: center;
     }
 
     .sub_heading{
@@ -122,5 +152,46 @@ form{
 
     #overview{
         font-size: 25px;
+    }
+
+    body{
+        background-size: contain;
+    }
+
+}
+
+@media (max-width: 1067px) {
+    .top_section {
+        display: block;
+        margin-top: 40%;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+@media (max-width: 850px) {
+    .top_section {
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 610px) {
+    .top_section {
+        margin-top: 30%;
+    }
+
+    .top_section .main_heading {
+        font-size: 40px;
+    }
+
+    .sub_heading {
+        font-size: 32px;
+    }
+
+    #overview {
+        font-size: 20px;
     }
 }
