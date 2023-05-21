@@ -53,11 +53,12 @@ button {
     padding-right: 2px;
 }
 
-a:visited {
+.clickables a:visited {
     color: black
 }
 
-a:hover {
-    color: #c26c07;
-    transition: .2s;
+.clickables a:hover {
+    font-size: 15px;
+    color: brown;
+    transition: .1s;
 }

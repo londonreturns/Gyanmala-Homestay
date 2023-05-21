@@ -31,11 +31,31 @@
                     <li class="nav_site login_register">
                         <a href="registration.html">register</a>
                     </li>
-                    <li class="nav_site login_register">
+                    <li class="active nav_site login_register">
                         <a href="login.html">login</a>
                     </li>
                 </ul>
+                <div class="ham">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
+            <div class="dropdown open">
+                <li class="nav_site">
+                    <a href="index.html">home</a>
+                </li>
+                <li class="nav_site">
+                    <a href="services.html">services</a>
+                </li>
+                <li class="nav_site">
+                    <a href="contact.html">contact</a>
+                </li>
+                <li class="nav_site login_register">
+                    <a href="registration.html">register</a>
+                </li>
+                <li class="active nav_site login_register">
+                    <a href="login.html">login</a>
+                </li>
+            </div>
         </header>
         <main>
             <section class="login">
@@ -51,8 +71,8 @@
                     <input type="password" placeholder="••••••••" id="password2" required>
                     <button class="register_button">Login</button>
                 </form>
-                <div>Don't have an account? <button class="login_link"><a href="registration.html">Click here</a></button></div>
-                <div>Forgot your password? <button class="forgot"><a href="index.html">Click here</a></button></div>
+                <div class="clickables">Don't have an account? <button class="login_link"><a href="registration.html">Click here</a></button></div>
+                <div class="clickables">Forgot your password? <button class="forgot"><a href="index.html">Click here</a></button></div>
             </section>
         </main>
         <footer>
@@ -72,5 +92,6 @@
             </ul>
             <div class="copyright footer_section">© 2023 Gyanmala Homestay. All Rights Reserved.</div>
         </footer>
+        <script src="js/hamburger.js"></script>
     </body>
 </html>
