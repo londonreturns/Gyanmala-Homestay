@@ -3,7 +3,7 @@
     margin-bottom: 6vh;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@ form{
     margin-bottom: 20px;
 }
 
-input{
+input {
     width: 200px;
     height: 30px;
     margin-bottom: 25px;
@@ -23,42 +23,41 @@ input{
     background-color: antiquewhite;
 }
 
-label{
+label {
     margin-bottom: 12px;
     font-size: 25px;
 }
 
-button{
+button {
     background-color: antiquewhite;
     border-radius: 20px;
-    width: 10vw;
+    width: 7vw;
     height: 5vh;
     margin-bottom: 20px;
 }
 
-.gender{
+.gender {
     display: flex;
     width: 45%;
     display: inherit;
     line-height: 35px;
 }
 
-.login{
+.login {
     text-align: center;
     margin-bottom: 12px;
 }
 
-.login a{
-    border: 2px solid black;
+.login_link a {
     padding-left: 2px;
     padding-right: 2px;
 }
 
-.login a:visited{
-    color:black
+a:visited {
+    color: black
 }
 
-.login a:hover{
+a:hover {
     color: #c26c07;
     transition: .2s;
 }
