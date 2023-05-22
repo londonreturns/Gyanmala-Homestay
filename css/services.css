@@ -67,3 +67,19 @@ section .amenity li{
     color: brown;
     transition: .1s;
 }
+
+.review_all{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 2vh;
+    line-height: 90px;
+}
+
+.review_all .fa-solid{
+    color: #f0ba00;
+}
