@@ -1,0 +1,73 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin - Hosts</title>
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+        <link rel="stylesheet" href="css/adminTemplate.css">
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+    </head>
+    <body>
+        <main>
+            <nav>
+                <li><a href="index.html">HomePage</a></li>
+                <li><a href="adminPanelAmenities.html">Amenities</a></li>
+                <li><a href="adminPanelContact.html">Contact</a></li>
+                <li><a href="adminPanelGallery.html">Gallery</a></li>
+                <li><a href="adminPanelHosts.html">Hosts</a></li>
+                <li><a href="adminPanelIncluded.html">Included</a></li>
+                <li><a href="adminPanelReferences.html">References</a></li>
+                <li><a href="adminPanelReview.html">Review</a></li>
+            </nav>
+            <section>
+                <div class="heading">Hosts</div>
+                <table>
+                    <tr>
+                        <th>Number</th>
+                        <th>Image</th>
+                        <th>name</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><img src="images/host1.jpg" alt="host1.jpg"></td>
+                        <td>Sharada Acharya</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><img src="images/host2.jpg" alt="host2.jpg"></td>
+                        <td>Pumpha Shrestha</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><img src="images/host3.jpg" alt="host3.jpg"></td>
+                        <td>Laxmi Khadka Thapa</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><img src="images/host4.jpg" alt="host4.jpg"></td>
+                        <td>Manmaya Gurung</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td><img src="images/host5.jpg" alt="host5.jpg"></td>
+                        <td>Naina Sapkota</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td><img src="images/host6.jpg" alt="host6.jpg"></td>
+                        <td>Angmaya Sherpa</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                </table>
+                <button class="add" onclick="add()">Add</button>
+            </section>
+        </main>
+        <script src="js/hosts.js"></script>
+    </body>
+</html>

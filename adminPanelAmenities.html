@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin - Amenities</title>
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+        <link rel="stylesheet" href="css/adminTemplate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+    </head>
+    <body>
+        <main>
+            <nav>
+                <li><a href="index.html">HomePage</a></li>
+                <li><a href="adminPanelAmenities.html">Amenities</a></li>
+                <li><a href="adminPanelContact.html">Contact</a></li>
+                <li><a href="adminPanelGallery.html">Gallery</a></li>
+                <li><a href="adminPanelHosts.html">Hosts</a></li>
+                <li><a href="adminPanelIncluded.html">Included</a></li>
+                <li><a href="adminPanelReferences.html">References</a></li>
+                <li><a href="adminPanelReview.html">Review</a></li>
+            </nav>
+            <section>
+                <div class="heading">Amenities</div>
+                <table>
+                    <tr>
+                        <th>Number</th>
+                        <th>Logo</th>
+                        <th>Amenity</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><i class="fa-solid fa-eye"></i></td>
+                        <td>View</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><i class="fa-solid fa-house-chimney-window"></i></td>
+                        <td>Terrace</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><i class="fa-solid fa-wifi"></i></td>
+                        <td>Wi-Fi</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><i class="fa-solid fa-mattress-pillow"></i></td>
+                        <td>Linen</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td><i class="fa-solid fa-shower"></i></td>
+                        <td>Hot Shower</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td><i class="fa-solid fa-road"></i></td>
+                        <td>Road Access</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                </table>
+                <button class="add" onclick="add()">Add</button>
+            </section>
+        </main>
+        <script src="js/amenities.js"></script>
+    </body>
+</html>

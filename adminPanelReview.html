@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin - Review</title>
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+        <link rel="stylesheet" href="css/adminTemplate.css">
+        <link rel="icon" type="image/png" href="images/GyanmalaLogo2.png" />
+    </head>
+    <body>
+        <main>
+            <nav>
+                <li><a href="index.html">HomePage</a></li>
+                <li><a href="adminPanelAmenities.html">Amenities</a></li>
+                <li><a href="adminPanelContact.html">Contact</a></li>
+                <li><a href="adminPanelGallery.html">Gallery</a></li>
+                <li><a href="adminPanelHosts.html">Hosts</a></li>
+                <li><a href="adminPanelIncluded.html">Included</a></li>
+                <li><a href="adminPanelReferences.html">References</a></li>
+                <li><a href="adminPanelReview.html">Review</a></li>
+            </nav>
+            <section>
+                <div class="heading">Review</div>
+                <table>
+                    <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Stars</th>
+                        <th>Review</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>John Smith</td>
+                        <td>4.5</td>
+                        <td>Very good</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Ava Keith</td>
+                        <td>4.5</td>
+                        <td>Cool</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Duncan Hoover</td>
+                        <td>5</td>
+                        <td>Nice</td>
+                        <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
+                    </tr>
+                </table>
+                <button class="add" onclick="add()">Add</button>
+            </section>
+        </main>
+        <script src="js/review.js"></script>
+    </body>
+</html>

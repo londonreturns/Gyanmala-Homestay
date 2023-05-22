@@ -25,10 +25,10 @@ function login(){
     var password1 = document.getElementById('password1').value;
     var password2 = document.getElementById('password2').value;
     if (password1 != password2){
-        alert('Passwords do not match')
+        alert('Passwords do not match');
     }else{
         if (passwordValidation(password1)){
-            window.location.href = "hostTable.html";
+            window.location.href = "adminPanelAmenities.html";
         }else{
             console.log('false');
         }
