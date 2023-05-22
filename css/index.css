@@ -76,7 +76,7 @@ body {
 
 #overview {
     color: black;
-    margin: 0vh 10vw 0 10vw;
+    margin: 0vh 5vw 0 5vw;
     font-size: 30px;
     text-align: justify;
     scroll-margin-top: 33vh;
@@ -156,6 +156,7 @@ form{
 
     #overview{
         font-size: 25px;
+        padding: 20px;
     }
 
     body{
