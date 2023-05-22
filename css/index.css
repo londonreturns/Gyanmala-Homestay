@@ -48,6 +48,7 @@ body {
 
 .share_link {
     display: flex;
+    justify-content: space-between;
     text-align: center;
     font-size: 35px;
     background-color: rgba(0, 20, 20, .1);
@@ -99,7 +100,6 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 3vw;
 }
-
 
 .row img {
     width: 85%;
