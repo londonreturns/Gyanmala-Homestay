@@ -77,6 +77,9 @@ nav {
     font-weight: 700;
     font-family: 'Libre Baskerville', sans-serif;
     text-align: center;
+    color: #E5C453;
+    text-shadow: 0 0 3px #FF0000, 0 0 10px #000000;
+    margin-top: 60px;
 }
 
 footer {

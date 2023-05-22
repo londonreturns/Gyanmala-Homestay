@@ -80,6 +80,8 @@ body {
     font-size: 30px;
     text-align: justify;
     scroll-margin-top: 33vh;
+    background-color: rgba(0, 20, 20, .1);
+    padding: 45px;
 }
 
 .sub_heading {
