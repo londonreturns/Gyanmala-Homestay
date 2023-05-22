@@ -33,7 +33,7 @@ button {
     border-radius: 20px;
     width: 180px;
     height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .gender {
@@ -51,6 +51,12 @@ button {
 .login_link a {
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.loginBtn:hover {
+    font-size: 15px;
+    color: brown;
+    transition: .1s;
 }
 
 .clickables a:visited {
