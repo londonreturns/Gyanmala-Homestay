@@ -13,8 +13,7 @@
 .location{
     width: 75vw;
     height: 75vh;
-    margin: auto;
-    margin-bottom: 2vh;
+    margin: 0 auto 75px auto;
 }
 
 .location .sub_heading{
