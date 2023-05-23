@@ -4,12 +4,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin - Included</title>
-        <link rel="icon" type="image/png" href="images/GyanmalaLogo.png" />
+        <!-- adminTemplate css -->
         <link rel="stylesheet" href="css/adminTemplate.css">
+        <!-- Title logo -->
         <link rel="icon" type="image/png" href="images/GyanmalaLogo.png" />
-    </head>
     <body>
+        <!-- main -->
         <main>
+            <!-- nav -->
             <nav>
                 <li><a href="index.html">HomePage</a></li>
                 <li><a href="adminPanelAmenities.html">Amenities</a></li>
@@ -20,32 +22,44 @@
                 <li><a href="adminPanelReferences.html">References</a></li>
                 <li><a href="adminPanelReview.html">Review</a></li>
             </nav>
+            <!-- section -->
             <section>
+                <!-- heading -->
                 <div class="heading">Included</div>
+                <!-- table -->
                 <table>
                     <tr>
+                        <!-- table fields -->
                         <th>Number</th>
                         <th>Included</th>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>1.</td>
                         <td>Breakfast</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>2.</td>
                         <td>Lunch</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>3.</td>
                         <td>Dinner</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                 </table>
+                <!-- button -->
                 <button class="add" onclick="add()">Add</button>
             </section>
         </main>
+        <!-- included javascript -->
         <script src="js/included.js"></script>
     </body>
 </html>

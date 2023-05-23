@@ -1,8 +1,12 @@
+/* Login Page */
+
+/* Sub heading */
 .sub_heading {
     margin-top: 15vh;
     margin-bottom: 6vh;
 }
 
+/* Form */
 form {
     display: flex;
     flex-direction: column;
@@ -14,6 +18,7 @@ form {
     margin-bottom: 20px;
 }
 
+/* Input */
 input {
     width: 200px;
     height: 30px;
@@ -23,11 +28,13 @@ input {
     background-color: antiquewhite;
 }
 
+/* Label */
 label {
     margin-bottom: 12px;
     font-size: 25px;
 }
 
+/* Button */
 button {
     background-color: antiquewhite;
     border-radius: 20px;
@@ -36,6 +43,7 @@ button {
     margin-bottom: 30px;
 }
 
+/* Gender radio button */
 .gender {
     display: flex;
     width: 45%;
@@ -43,26 +51,31 @@ button {
     line-height: 35px;
 }
 
+/* Login */
 .login {
     text-align: center;
     margin-bottom: 12px;
 }
 
+/* Link in login_link */
 .login_link a {
     padding-left: 2px;
     padding-right: 2px;
 }
 
+/* Login button */
 .loginBtn:hover {
     font-size: 15px;
     color: brown;
     transition: .1s;
 }
 
+/* Button */
 .clickables a:visited {
     color: black
 }
 
+/* Clickables when hovered */
 .clickables a:hover {
     font-size: 15px;
     color: brown;

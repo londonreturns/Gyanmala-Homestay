@@ -1,20 +1,26 @@
+/* Contact Page */
+
+/* Contact Sub heading */
 .contact {
     margin-top: 15vh;
     margin-bottom: 6vh;
 }
 
-.contact .phone_number{
+/* Phone number */
+.contact .phone_number {
     text-align: center;
     line-height: 35px;
     font-size: 20px;
     padding-top: 45px;
 }
 
-.location{
+/* Location Subheading */
+.location {
     width: 75vw;
     margin: 0 auto 25px auto;
 }
 
-.location .sub_heading{
+/* Sub heading */
+.location .sub_heading {
     margin-bottom: 6vh;
 }

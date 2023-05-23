@@ -4,12 +4,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin - Hosts</title>
-        <link rel="icon" type="image/png" href="images/GyanmalaLogo.png" />
+        <!-- adminTemplate css -->
         <link rel="stylesheet" href="css/adminTemplate.css">
+        <!-- Title logo -->
         <link rel="icon" type="image/png" href="images/GyanmalaLogo.png" />
     </head>
     <body>
+        <!-- main -->
         <main>
+            <!-- nav -->
             <nav>
                 <li><a href="index.html">HomePage</a></li>
                 <li><a href="adminPanelAmenities.html">Amenities</a></li>
@@ -20,54 +23,72 @@
                 <li><a href="adminPanelReferences.html">References</a></li>
                 <li><a href="adminPanelReview.html">Review</a></li>
             </nav>
+            <!-- section -->
             <section>
+                <!-- heading -->
                 <div class="heading">Hosts</div>
+                <!-- table -->
                 <table>
                     <tr>
+                        <!-- table fields -->
                         <th>Number</th>
                         <th>Image</th>
                         <th>name</th>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>1.</td>
                         <td><img src="images/host1.jpg" alt="host1.jpg"></td>
                         <td>Sharada Acharya</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>2.</td>
                         <td><img src="images/host2.jpg" alt="host2.jpg"></td>
                         <td>Pumpha Shrestha</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>3.</td>
                         <td><img src="images/host3.jpg" alt="host3.jpg"></td>
                         <td>Laxmi Khadka Thapa</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>4.</td>
                         <td><img src="images/host4.jpg" alt="host4.jpg"></td>
                         <td>Manmaya Gurung</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>5.</td>
                         <td><img src="images/host5.jpg" alt="host5.jpg"></td>
                         <td>Naina Sapkota</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                     <tr>
+                        <!-- table record -->
                         <td>6.</td>
                         <td><img src="images/host6.jpg" alt="host6.jpg"></td>
                         <td>Angmaya Sherpa</td>
+                        <!-- button -->
                         <td><button onclick="edit()">Edit</button><button onclick="remove()">Delete</button></td>
                     </tr>
                 </table>
+                <!-- button -->
                 <button class="add" onclick="add()">Add</button>
             </section>
         </main>
+        <!-- hosts javascript -->
         <script src="js/hosts.js"></script>
     </body>
 </html>

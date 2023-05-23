@@ -1,9 +1,13 @@
+/* Homepage */
+
+/* Body */
 body {
     background-image: url("../images/mountain_dark.png");
     background-size: 100vw 80vh;
     background-repeat: no-repeat;
 }
 
+/* Top Section */
 .top_section {
     display: flex;
     justify-content: space-around;
@@ -11,6 +15,7 @@ body {
     flex-wrap: wrap;
 }
 
+/* Main heading */
 .top_section .main_heading {
     font-size: 52px;
     font-weight: 700;
@@ -19,6 +24,13 @@ body {
     margin-right: 30vw;
 }
 
+/* Form */
+form {
+    width: 350px;
+    float: right;
+}
+
+/* Buttons */
 .clickable {
     background-color: antiquewhite;
     margin-top: auto;
@@ -28,20 +40,24 @@ body {
     margin-bottom: 5px;
 }
 
+/* Link in clickables */
 .clickable a {
     color: black;
 }
 
+/* Clickables when hovered */
 .clickable:hover {
     font-size: 15px;
     color: brown;
     transition: .1s;
 }
 
+/* Share button when hover */
 .share:hover {
     cursor: pointer;
 }
 
+/* Share Link */
 .share_link.share_open{
     display: none;
 }
@@ -59,6 +75,7 @@ body {
     gap: 10px;
 }
 
+/* Logo colors */
 .facebook {
     color: #3b5998;
 }
@@ -75,6 +92,7 @@ body {
     color: #cb2027;
 }
 
+/* Description */
 #overview {
     color: black;
     margin: 0vh 5vw 0 5vw;
@@ -85,15 +103,18 @@ body {
     padding: 45px;
 }
 
+/* Sub heading */
 .sub_heading {
     margin-top: 14vh;
     margin-bottom: 5vw;
 }
 
+/* Gallery */
 #gallery {
     scroll-margin-top: 29vh;
 }
 
+/* Gallery in grid */
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -101,6 +122,7 @@ body {
     gap: 3vw;
 }
 
+/* Image */
 .row img {
     width: 85%;
     padding: 5px;
@@ -108,24 +130,28 @@ body {
     margin-bottom: 15px;
 }
 
+/* Image when hover */
 .row img:hover {
     transform: scale(1.09);
     transition: .4s;
     border-radius: 20px;
 }
 
-form{
-    width: 350px;
-    float: right;
-}
-
+/* Responsive under 1400px */
 @media (max-width: 1400px) {
     
-    .share{
+    /* Body */
+    body {
+        background-size: contain;
+    }
+
+    /* Share Link */
+    .share {
         margin-top: 4vh;
     }
 
-    form{
+    /* Form */
+    form {
         float: none;
         display: flex;
         flex-wrap: wrap;
@@ -136,6 +162,7 @@ form{
         justify-content: space-between;
     }
 
+    /* Top Section */
     .top_section {
         display: flex;
         justify-content: space-around;
@@ -143,6 +170,7 @@ form{
         flex-wrap: wrap;
     }
 
+    /* Main heading */
     .top_section .main_heading {
         margin: auto;
         background-color: rgba(0, 20, 20, .3);
@@ -150,52 +178,62 @@ form{
         text-align: center;
     }
 
-    .sub_heading{
+    /* Sub heading */
+    .sub_heading {
         margin-top: 5vh;
     }
 
-    #overview{
+    /* Description */
+    #overview {
         font-size: 25px;
         padding: 20px;
     }
-
-    body{
-        background-size: contain;
-    }
-
 }
 
+/* Responsive under 1067px */
 @media (max-width: 1067px) {
+
+    /* Top Section */
     .top_section {
         display: block;
         margin-top: 40%;
     }
 
+    /* Gallery in grid */
     .row {
         grid-template-columns: 1fr;
         
     }
 }
 
+/* Responsive under 850px */
 @media (max-width: 850px) {
+
+    /* Top section */
     .top_section {
         margin-top: 35%;
     }
 }
 
+/* Responsive under 610px */
 @media (max-width: 610px) {
+
+    /* Top section */
     .top_section {
         margin-top: 30%;
     }
 
+    /* Main heading */
     .top_section .main_heading {
         font-size: 40px;
     }
 
+    /* Sub heading */
     .sub_heading {
         font-size: 32px;
     }
 
+    /* Description */
     #overview {
         font-size: 20px;
     }

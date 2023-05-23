@@ -4,17 +4,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gyanmala Homestay - Login</title>
+        <!-- template, services css -->
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="css/login.css">
+        <!-- title logo -->
         <link rel="icon" type="image/png" href="images/GyanmalaLogo.png" />
+        <!-- logo -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!-- header -->
         <header>
+            <!-- nav -->
             <nav>
+                <!-- logo -->
                 <a href="index.html">
                     <img src="images/GyanmalaLogo.png" id="logo" alt="Gyanmala Logo.png">
                 </a>
@@ -35,10 +42,12 @@
                         <a href="login.html">login</a>
                     </li>
                 </ul>
+                <!-- hamburger -->
                 <div class="ham">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
+            <!-- dropdown -->
             <div class="dropdown drop_open">
                 <li class="nav_site">
                     <a href="index.html">home</a>
@@ -57,32 +66,50 @@
                 </li>
             </div>
         </header>
+        <!-- main -->
         <main>
+            <!-- login -->
             <section class="login">
+                <!-- sub heading -->
                 <div class="sub_heading">Login</div>
+                <!-- form -->
                 <form>
+                    <!-- email -->
                     <label for="email">Email</label>
                     <input type="email" id="email" required>
+                    <!-- phone number -->
                     <label for="phone_number">Phone Number</label>
                     <input type="text" id="phone_number" required>
+                    <!-- password1 -->
                     <label for="password1">Password</label>
                     <input type="password" placeholder="••••••••" id="password1" required>
+                    <!-- password2 -->
                     <label for="password2" >Type password again</label>
                     <input type="password" placeholder="••••••••" id="password2" required>
+                    <!-- button -->
                     <button class="loginBtn" onclick="login()">Login</button>
                 </form>
+                <!-- button -->
                 <div class="clickables">Don't have an account? <button class="login_link"><a href="registration.html">Click here</a></button></div>
                 <div class="clickables">Forgot your password? <button class="forgot"><a href="index.html">Click here</a></button></div>
             </section>
         </main>
+        <!-- footer -->
         <footer>
+            <!-- footer section -->
             <ul class="footer_section">
+                <!-- about company -->
                 <li class="footer_main">About Company</li>
+                <!-- about -->
                 <li class="footer_sub"><a href="index.html#overview">About Us</a></li>
+                <!-- contact -->
                 <li class="footer_sub"><a href="contact.html">Contact</a></li>
             </ul>
+            <!-- footer section -->
             <ul class="footer_section">
+                <!-- connect -->
                 <li class="footer_main">Connect with us on</li>
+                <!-- logo -->
                 <li class="logo">
                     <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
                     <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
@@ -90,8 +117,10 @@
                     <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
                 </li>
             </ul>
+            <!-- copyright -->
             <div class="copyright footer_section">© 2023 Gyanmala Homestay. All Rights Reserved.</div>
         </footer>
+        <!-- hamburger login javascript -->
         <script src="js/hamburger.js"></script>
         <script src="js/login.js"></script>
     </body>

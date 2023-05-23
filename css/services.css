@@ -1,52 +1,64 @@
-.services{
+/* Services Page */
+
+/* Services Sub heading */
+.services {
     margin-top: 15vh;
 }
 
-section .availability{
+/* Availabilty */
+section .availability {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-section .mini_heading{
+/* Mini heading */
+section .mini_heading {
     margin-top: 5vh;
     font-family: 'Libre Baskerville', sans-serif;
     font-size: 25px;
 }
 
-section .lists{
+/* Lists in section */
+section .lists {
     margin-top: 35px;
     line-height: 35px;
     font-size: 20px;
 }
 
-section .amenity li{
+/* Lists in amenity */
+section .amenity li {
     list-style: none;
 }
 
-.sub_heading{
+/* Sub heading */
+.sub_heading {
     margin-top: 6vh;
 }
 
-.price{
+/* Price */
+.price {
     text-align: center;
 }
 
-.hosts .lists{
+/* Lists in hosts */
+.hosts .lists {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.lists .name_pic img{
+/* Images in hosts */
+.lists .name_pic img {
     width: 400px;
     height: 600px;
     object-fit: cover;
     padding-top: 50px;
 }
 
-.confirm{
+/* Button */
+.confirm {
     background-color: antiquewhite;
     border-radius: 20px;
     width: 150px;
@@ -57,18 +69,21 @@ section .amenity li{
     margin-right: auto;
 }
 
-.confirm a{
+/* Link in confirm */
+.confirm a {
     text-decoration: none;
     color: black;
 }
 
+/* Confirm when hover */
 .confirm a:hover {
     font-size: 15px;
     color: brown;
     transition: .1s;
 }
 
-.review_all{
+/* Review */
+.review_all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -80,20 +95,25 @@ section .amenity li{
     gap: 150px;
 }
 
-.review_all .fa-solid{
+/* Logo in review_all */
+.review_all .fa-solid {
     color: #f0ba00;
 }
 
-.review_all .review_text{
+/* Text in review_all */
+.review_all .review_text {
     font-weight: 100;
     font-style:italic;
 }
 
+/* Responsive under 1450px */
 @media (max-width: 1450px) {
+    /* Lists in hosts */
     .hosts .lists {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
+    /* Review */
     .review_all {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -101,15 +121,17 @@ section .amenity li{
         text-align: center;
         gap: 50px;
     }
-    
 }
 
+/* Responsive under 900px */
 @media (max-width: 900px) {
+    /* Lists in hosts */
     .hosts .lists {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    .availability{
+    /* Availabilty */
+    .availability {
         flex-direction: column;
         text-align: center;
     }
